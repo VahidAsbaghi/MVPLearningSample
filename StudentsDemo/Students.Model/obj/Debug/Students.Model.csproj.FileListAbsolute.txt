@@ -1,0 +1,13 @@
+C:\Users\Vahid\source\repos\StudentsView\Students.Model\bin\Debug\Students.Model.dll
+C:\Users\Vahid\source\repos\StudentsView\Students.Model\bin\Debug\Students.Model.pdb
+C:\Users\Vahid\source\repos\StudentsView\Students.Model\obj\Debug\Students.Model.csproj.CoreCompileInputs.cache
+C:\Users\Vahid\source\repos\StudentsView\Students.Model\obj\Debug\Students.Model.dll
+C:\Users\Vahid\source\repos\StudentsView\Students.Model\obj\Debug\Students.Model.pdb
+C:\Users\Vahid\source\repos\StudentsView\Students.Model\obj\Debug\Students.Model.csprojResolveAssemblyReference.cache
+C:\Users\Vahid\source\repos\StudentsView\Students.Model\bin\Debug\Students.Model.dll.config
+C:\Users\Vahid\source\repos\StudentsView\Students.Model\bin\Debug\EntityFramework.dll
+C:\Users\Vahid\source\repos\StudentsView\Students.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vahid\source\repos\StudentsView\Students.Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vahid\source\repos\StudentsView\Students.Model\bin\Debug\EntityFramework.xml
+C:\Users\Vahid\source\repos\StudentsView\Students.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vahid\source\repos\StudentsView\Students.Model\bin\Debug\Newtonsoft.Json.xml

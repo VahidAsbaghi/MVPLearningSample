@@ -11,6 +11,6 @@ namespace Students.Model.Services
         Student AddStudent(Student student);
         bool UpdateStudentInfo(Student student);
         IEnumerable<Student> GetAll();
-        Student GetStudent(int studentId);
+        Student GetStudent(string studentNumber);
     }
 }

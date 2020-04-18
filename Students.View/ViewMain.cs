@@ -36,7 +36,7 @@ namespace Students.View
 
             listBox1.DataSource = _studentsBindingSource;
             listBox1.DisplayMember = "FullName";
-            listBox1.ValueMember = "Id";
+            listBox1.ValueMember = "StudentNumber";
 
             StudentScore = new StudentScoreViewModel();
             Binding studentCourseBinding = new Binding("Text", StudentScore, "Score") { ControlUpdateMode = ControlUpdateMode.OnPropertyChanged};
@@ -46,7 +46,7 @@ namespace Students.View
             Binding courseBinding = new Binding("Text", StudentScore, "CourseName") { DataSourceUpdateMode = DataSourceUpdateMode.OnPropertyChanged };
             cmBoxCources.DataBindings.Add(courseBinding);
 
-            Binding studentBinding = new Binding("SelectedValue", StudentScore, "StudentId") { DataSourceUpdateMode = DataSourceUpdateMode.OnPropertyChanged };
+            Binding studentBinding = new Binding("SelectedValue", StudentScore, "StudentNumber") { DataSourceUpdateMode = DataSourceUpdateMode.OnPropertyChanged };
             listBox1.DataBindings.Add(studentBinding);
 
             Application.Run(this);
@@ -58,17 +58,18 @@ namespace Students.View
             set { _coursesBindingSource.DataSource = value.ToList(); }
         }
 
-        public IEnumerable<Student> Students
+        public List<StudentViewModel> Students
         {
-            get { return _studentsBindingSource.List.Cast<Student>(); }
+            get { return _studentsBindingSource.List.Cast<StudentViewModel>().ToList(); }
             set
             {
                 _studentsBindingSource.DataSource = value.ToList();
             }
         }
 
-        public StudentScoreViewModel StudentScore { get; set; }
-        public Student Student { get; set; }
+        public StudentScoreViewModel StudentScore { get;
+            set; }
+        public StudentViewModel Student { get; set; }
         private void btnAdd_Click(object sender, EventArgs e)
         {
             Presenter.AddStudent(Student);
@@ -79,7 +80,7 @@ namespace Students.View
 
         private void NewStudentBinding()
         {
-            Student = new Student();
+            Student = new StudentViewModel();
             txtName.Bind(Student, "Name");
             txtLastName.Bind(Student, "LastName");
             txtMobile.Bind(Student, "Mobile");
@@ -90,5 +91,7 @@ namespace Students.View
         {
             Presenter.AddScore(StudentScore);
         }
+
+        
     }
 }

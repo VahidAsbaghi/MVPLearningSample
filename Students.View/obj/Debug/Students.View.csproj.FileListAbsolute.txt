@@ -17,3 +17,6 @@ C:\Users\Vahid\source\repos\StudentsView\Students.View\bin\Debug\EntityFramework
 C:\Users\Vahid\source\repos\StudentsView\Students.View\bin\Debug\EntityFramework.dll
 C:\Users\Vahid\source\repos\StudentsView\Students.View\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Vahid\source\repos\StudentsView\Students.View\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vahid\source\repos\StudentsView\Students.View\bin\Debug\AutoMapper.dll
+C:\Users\Vahid\source\repos\StudentsView\Students.View\bin\Debug\AutoMapper.pdb
+C:\Users\Vahid\source\repos\StudentsView\Students.View\bin\Debug\AutoMapper.xml

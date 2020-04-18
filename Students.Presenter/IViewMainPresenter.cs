@@ -10,7 +10,7 @@ namespace Students.Presenter
 {
     public interface IViewMainPresenter:IPresenter<IViewMain>
     {
-        Student AddStudent(Student student);
+        bool AddStudent(StudentViewModel student);
         void AddScore(StudentScoreViewModel studentScore);
     }
 }

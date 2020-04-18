@@ -2,7 +2,7 @@
 {
     public class StudentScoreViewModel
     {
-        public int StudentId { get; set; }
+        public string StudentNumber { get; set; }
         public string CourseName { get; set; }
         public int Score { get; set; }
     }

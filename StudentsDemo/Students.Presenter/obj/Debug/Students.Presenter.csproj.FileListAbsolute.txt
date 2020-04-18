@@ -1,0 +1,11 @@
+C:\Users\Vahid\source\repos\StudentsView\Students.Presenter\bin\Debug\Students.Presenter.dll
+C:\Users\Vahid\source\repos\StudentsView\Students.Presenter\bin\Debug\Students.Presenter.pdb
+C:\Users\Vahid\source\repos\StudentsView\Students.Presenter\obj\Debug\Students.Presenter.csprojResolveAssemblyReference.cache
+C:\Users\Vahid\source\repos\StudentsView\Students.Presenter\obj\Debug\Students.Presenter.csproj.CoreCompileInputs.cache
+C:\Users\Vahid\source\repos\StudentsView\Students.Presenter\obj\Debug\Students.Presenter.dll
+C:\Users\Vahid\source\repos\StudentsView\Students.Presenter\obj\Debug\Students.Presenter.pdb
+C:\Users\Vahid\source\repos\StudentsView\Students.Presenter\bin\Debug\Students.Model.dll
+C:\Users\Vahid\source\repos\StudentsView\Students.Presenter\bin\Debug\EntityFramework.dll
+C:\Users\Vahid\source\repos\StudentsView\Students.Presenter\bin\Debug\Students.Model.pdb
+C:\Users\Vahid\source\repos\StudentsView\Students.Presenter\bin\Debug\Students.Model.dll.config
+C:\Users\Vahid\source\repos\StudentsView\Students.Presenter\bin\Debug\EntityFramework.xml

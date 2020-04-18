@@ -30,9 +30,9 @@ namespace Students.Model.Services
             return _studentRepository.GetAll();
         }
 
-        public Student GetStudent(int studentId)
+        public Student GetStudent(string studentNumber)
         {
-            return _studentRepository.FindById(studentId);
+            return _studentRepository.Get(st=>st.StudentNumber.Equals(studentNumber));
         }
     }
 }

@@ -9,3 +9,6 @@ C:\Users\Vahid\source\repos\StudentsView\Students.Presenter\bin\Debug\EntityFram
 C:\Users\Vahid\source\repos\StudentsView\Students.Presenter\bin\Debug\Students.Model.pdb
 C:\Users\Vahid\source\repos\StudentsView\Students.Presenter\bin\Debug\Students.Model.dll.config
 C:\Users\Vahid\source\repos\StudentsView\Students.Presenter\bin\Debug\EntityFramework.xml
+C:\Users\Vahid\source\repos\StudentsView\Students.Presenter\bin\Debug\AutoMapper.dll
+C:\Users\Vahid\source\repos\StudentsView\Students.Presenter\bin\Debug\AutoMapper.pdb
+C:\Users\Vahid\source\repos\StudentsView\Students.Presenter\bin\Debug\AutoMapper.xml
